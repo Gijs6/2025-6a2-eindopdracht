@@ -9,6 +9,18 @@ console.log('Bijvoorbeeld:\n...\nMabelle(86), hobbies: ["Basketball","Football",
 
 // schrijf jouw code hier
 
+for (const p of people) {
+    for (const f of p.friends) {
+        if (f.age > 70 && p.age > 70) {
+            let setp = new Set(p.hobbies);
+            let setf = new Set(f.hobbies);
+            if (setp.size === setf.size && [...setp].every(value => setf.has(value))) {
+                console.log(`${f.name.first}(${f.age}), hobbies: ${JSON.stringify(f.hobbies)}`)
+            }
+        }
+    }
+}
+
 // Print hier het antwoord op de vraag 
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
