@@ -7,6 +7,10 @@ console.log('Bijvoorbeeld: 290');
 
 // schrijf jouw code hier
 
+
+let place_people = people.filter((p) => p.location.country != "Bulgaria" && p.location.country != "Ecuador");
+
 // Print hier het antwoord op de vraag 
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
+console.log(place_people.length);

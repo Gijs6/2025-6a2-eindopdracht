@@ -7,6 +7,9 @@ console.log('Bijvoorbeeld: 100');
 
 // schrijf jouw code hier
 
+let mango_people = people.filter((p) => p.favoriteFood == "Mango");
+
 // Print hier het antwoord op de vraag 
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
+console.log(mango_people.length);

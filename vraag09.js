@@ -7,6 +7,15 @@ console.log('Bijvoorbeeld: 62.12');
 
 // schrijf jouw code hier
 
+let sum = 0;
+let count = 0;
+
+people.forEach(p => {
+    sum += p.age;
+    count++;
+});
+
 // Print hier het antwoord op de vraag 
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
+console.log(sum / count);

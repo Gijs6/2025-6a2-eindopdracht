@@ -7,6 +7,9 @@ console.log('Bijvoorbeeld: 8');
 
 // schrijf jouw code hier
 
+let age_people = people.filter((p) => p.age > 30 && p.age < 35);
+
 // Print hier het antwoord op de vraag 
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
+console.log(age_people.length);
