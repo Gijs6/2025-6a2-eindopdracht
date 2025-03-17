@@ -23,12 +23,6 @@
 ## Question 06
 
 ```
-Jana, leeftijd: 103
-Lazaro, leeftijd: 105
-Dorris, leeftijd: 104
-Malcolm, leeftijd: 104
-Cooper, leeftijd: 105
-Nasir, leeftijd: 104
 Kiley, leeftijd: 103
 Yolanda, leeftijd: 103
 Terrance, leeftijd: 105
@@ -95,11 +89,8 @@ Uzbekistan, aantal personen: 10
 ## Question 15
 
 ```
-Greece, hobbies: {"Swimming":4,"Basketball":4,"Running":2,"Football":5}
 Saint Lucia, hobbies: {"Basketball":4,"Swimming":3,"Football":4,"Running":2}
-Antarctica, hobbies: {"Running":5,"Basketball":4,"Swimming":3,"Football":3}
 Israel, hobbies: {"Basketball":3,"Football":6,"Running":3,"Swimming":4}
-Denmark, hobbies: {"Basketball":6,"Football":7,"Running":3,"Swimming":3}
 South Sudan, hobbies: {"Basketball":4,"Swimming":4,"Running":5,"Football":3}
 Uzbekistan, hobbies: {"Football":9,"Basketball":6,"Swimming":6,"Running":8}
 ```

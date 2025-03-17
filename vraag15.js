@@ -40,7 +40,7 @@ all_people.forEach((p) => {
 console.log('\n<Antwoord>');
 console.log('bereken het antwoord!');
 for (let country in inhabitants) {
-    if (inhabitants[country] >= 7) {
+    if (inhabitants[country] > 7) {
         console.log(`${country}, hobbies: ${JSON.stringify(hobbies[country])}`);
     }
 }
